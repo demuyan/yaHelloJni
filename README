@@ -1,0 +1,12 @@
+説明
+
+このアプリケーションはAndroid NDKのサンプルであるHelloJNIを
+jniRegisterNativeMethods対応したバージョンにしたものである。
+
+jniRegisterNativeMethods対応すると、JNIでの関数名が非常に簡潔になり
+関数登録のミスも減るのでHelloJNIで紹介されている方法ではなく、
+こちらの方法で作成する事を勧める。
+
+ビルド方法
+
+HelloJNIと同じ手順で
